@@ -4,5 +4,5 @@ import com.kevenreyes.apirest.apirest.Models.Carro;
 
 
 
-public interface ICarro extends JpaRepository <Carro, Long> {    
+public interface ICarroRepository extends JpaRepository <Carro, Long> {    
 }
